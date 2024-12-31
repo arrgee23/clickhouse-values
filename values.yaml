@@ -1146,7 +1146,7 @@ externalZookeeper:
 ## @param zookeeper.service.ports.client Zookeeper client port
 ##
 zookeeper:
-  enabled: true
+  enabled: false
   replicaCount: 3
   service:
     ports:
